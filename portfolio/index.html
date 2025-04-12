@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>João Gabriel Magalhães Rocha Silva</h1>
+  </header>
+  <div class="container">
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou estudante de Ciência da Computação na Universidade Católica de Pernambuco, com interesse em programação e desenvolvimento de software. Estou em busca de aprendizado e aprimoramento das minhas habilidades. Procuro oportunidades que me ajudem a crescer profissionalmente e a contribuir de forma significativa para projetos na área de tecnologia.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Linguagens de programação: Python, C e Java</li>
+        <li>HTML, CSS e JavaScript</li>
+        <li>Versionamento com Git e GitHub</li>
+        <li>Resolução de problemas e lógica de programação</li>
+        <li>Conhecimentos em estruturas de dados e algoritmos</li>
+        <li>Inglês avançado</li>
+        <li>Aprendizado rápido</li>
+      </ul>
+    </section>
+
+    <section id="formacao">
+      <h2>Formação Acadêmica</h2>
+      <p>Cursando 4º período Ciência da Computação - Universidade Católica de Pernambuco</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Email: joao.gmrsilva@gmail.com</p>
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/joão-gabriel-magalhães-418867351" target="_blank">
+          www.linkedin.com/in/joão-gabriel-magalhães-418867351
+        </a>
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/seu-usuario" target="_blank">github.com/seu-usuario</a>
+      </p>
+    </section>
+
+    <section id="jogo">
+      <h2>Jogo Senha (Bulls and Cows)</h2>
+      <p>Digite uma combinação de 4 dígitos (0-9, sem repetir) para tentar adivinhar:</p>
+      <input type="text" id="tentativa" maxlength="4" placeholder="1234" />
+      <button onclick="verificarTentativa()">Verificar</button>
+      <button onclick="mostrarSenha()">Mostrar Senha</button>
+      <ul id="historico"></ul>
+    </section>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
